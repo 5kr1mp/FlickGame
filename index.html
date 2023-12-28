@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stats game">
+        <h2>High Score: </h2>
+        <h2 id="hscore" class="stat game">0</h2>
+        <h2>Score: </h2>
+        <h2 id="score" class="stat game">0</h2>
+        <h2>Time: </h2>
+        <h2 id="time" class="stat game">30</h2>
+    </div>
+    <div class="target game"></div>
+    
+    <div id="overlay">
+        <div class="stats">
+            <h2>High Score: </h2>
+            <h2 id="hscore" class="stat menu">0</h2>
+            <h2>Score: </h2>
+            <h2 id="score" class="stat menu">0</h2>
+        </div>
+        <button onclick="start()">START</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background-color: rgb(35, 39, 51);
+    overflow: hidden;
+
+    color: rgb(235, 241, 245);
+    font-family: 'Trebuchet MS';
+}
+
+.stats{
+    width: 12rem;
+    margin: 30px;
+    z-index: 2;
+
+    background-color: rgba(128, 133, 138, 0.096);
+}
+
+h2.stat{
+    display: inline;
+}
+
+h2:not(.stat){
+    display: inline-block;
+    margin: 5px 10px;
+    width: 8.4rem;
+}
+
+div.target{
+    background-color: rgb(232, 241, 255);
+    border: 2px solid rgb(54, 52, 80);
+
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+}
+
+.game{
+    display: none;
+}
+
+
+#overlay{
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgba(0, 0, 0, 0.39);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS';
+
+    background-color: rgb(54, 58, 65);
+    color: rgb(221, 227, 247);
+    border: 1px solid rgb(221, 227, 247);
+
+    width: 200px;
+    height: 100px;
+    
+}
+
+button:hover{
+    background-color: rgb(85, 93, 107);
+}
+
